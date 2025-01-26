@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family: "Playfair", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+header{
+  padding: 40px 0;
+}
+.container{
+  margin: 0 auto;
+  overflow: hidden;width: 92%;
+}
+.logo{
+  margin-top: 8px;
+  width: 12%;
+  float: left;
+}
+.logo a img{
+  width: 100%;
+}
+.menu{ 
+  float: right;
+  width: 80%;
+ }
+.menu ul{
+  list-style: none;
+  float: right;
+}
+.menu ul li{
+  float: left;
+}
+.menu ul li a{ 
+  transition: .30s linear;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 45px;
+  color: #787777;
+  text-transform: uppercase;
+ 
+}
+.menu ul li a{
+  padding-right: 0;
+}
+.menu ul li a:hover{
+  color: #000000;
+}
